@@ -27,7 +27,7 @@ async def get_current_user(
     if user_id is None:
         raise credentials_exception
     
-    user = await db.query(User).filter(User.id == user_id).first()
+    user = db.query(User).filter(User.id == user_id).first()
     if user is None:
         raise credentials_exception
     
