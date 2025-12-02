@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+pydantic-settings
+pydantic[email]
+openai
+langchain
+langchain-community
+langchain-core
+langchain-openai
+python-jose[cryptography]
+passlib[bcrypt]==1.7.4
+bcrypt
+python-multipart
+pypdf
+chromadb
